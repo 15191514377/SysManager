@@ -1,0 +1,63 @@
+{
+  "name": "shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^1.0.2",
+    "axios": "^1.2.2",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^3.8.3",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "path": "^0.12.7",
+    "svg-sprite-loader": "^6.0.11",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^3.6.5",
+    "vuex": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "element-ui": "^2.15.12",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "nprogress": "^0.2.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-debugger": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
